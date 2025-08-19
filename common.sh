@@ -14,7 +14,7 @@ build_kernel()
 {
 	set -x
 	kernel_type=$1
-	kernel_config_path="/boot/config-$(uname -r)"
+	kernel_config_path="/boot/config-6.11.0-19-generic"
 	shift
 	mkdir -p linux
 	pushd linux >/dev/null
